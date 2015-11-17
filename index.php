@@ -1,4 +1,4 @@
-<?php $search=$ _GET[ 'search']; $ss=$ _GET[ 'ss']; if($ss=="" ){$ss=$ _COOKIE[ "ss"];} setcookie( "ss",$ss,time()+(24*60*60*12*30), "/"); if($ss=="" ){$ss="true" ;} $combo=$ _GET[ 'combo']; if($combo !="by" and $combo !="gy" ) { $combo="gb" ;} if($search !="" ) {?>
+<?php $search=$_GET[ 'search']; $ss=$_GET[ 'ss']; if($ss=="" ){$ss=$_COOKIE[ "ss"];} setcookie( "ss",$ss,time()+(24*60*60*12*30), "/"); if($ss=="" ){$ss="true" ;} $combo=$_GET[ 'combo']; if($combo !="by" and $combo !="gy" ) { $combo="gb" ;} if($search !="" ) {?>
 <html>
 
 <head>
